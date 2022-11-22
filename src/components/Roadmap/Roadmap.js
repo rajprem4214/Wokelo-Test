@@ -14,9 +14,10 @@ const Roadmap = () => {
   return (
     <div className="roadpage_wrapper">
       <div className="header_wrapper">
-        <div id="product" className="road_header">Current research process is broken,</div>
+        <div className="road_header">Current research process is broken!</div>
         <p className="road_para">
-          time-consuming and leave precious little time for actual
+          Qualitative business research is time-consuming and leave precious
+          little time for actual
           <span
             style={{
               display: "flex",
@@ -120,39 +121,43 @@ const Roadmap = () => {
               Think of it as an AI-powered platform to perform
               {/* <br /> */} diverse business research tasks. Simply type your
               {/* <br />  */} research query, choose sources to refer, and
-              {/* <br /> */}
-              desired document format. That’s it, generate {" "}
+              {/* <br /> */} desired document format. That’s it, generate{" "}
               {/* <br /> */}
               reports in less than 5 minutes!
             </p>
             <p className="hiw_content2">
               At its core it uses a combination of large language
-              {/* <br /> */}{" "}
-              models and generative AI tools like GPT-3 and our
-              {/* <br /> */}{" "}
-              proprietary NLP models to perform quanlitative
-              {/* <br /> */} {" "}
-              analysis at a fidelity and speed that was not
-              {/* <br /> */} {" "}
-              possible before.
+              {/* <br /> */} models and generative AI tools like GPT-3 and our
+              {/* <br /> */} proprietary NLP models to perform quanlitative
+              {/* <br /> */} analysis at a fidelity and speed that was not
+              {/* <br /> */} possible before.
             </p>
           </div>
         </div>
       </div>
-      <div className="footer">
+      <div id="contact" className="footer">
         <div className="access">
           <p className="beta">
             To know more about our product, <br /> click below for early beta
             access.
           </p>
           <div className="btn_wrapper">
-            <button className="main_btn wait_btn">Join waitlist</button>
+            <button className="main_btn wait_btn">
+              {" "}
+              <a
+                href="https://forms.gle/bRaidaCh3NEo2Zx3A/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Join Waitlist
+              </a>
+            </button>
             <div className="arrow_img">
               <img src={arrow} alt="" />
             </div>
           </div>
         </div>
-        <div id="contact" className="contact">
+        <div className="contact">
           <div className="contact_left">
             <div className="address">
               <p className="add_header">Contact</p>

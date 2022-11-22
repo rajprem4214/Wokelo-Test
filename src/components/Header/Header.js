@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../../assets/Wokelo - Final logo (1) 1.png'
+import landImage from '../../assets/Group 3766.png'
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Header.css";
@@ -16,28 +17,30 @@ const Header = () => {
           <div class="logo">
             <img src={logo} alt="" />
             &nbsp;
-            <span>WOKELO</span>
+            <span>
+              <a href="/">WOKELO</a>
+            </span>
           </div>
 
           <nav ref={navRef}>
             {/* <ul>
               <li> */}
-                <a href="/#">Home</a>
-              {/* </li> */}
+            <a href="/#">Home</a>
+            {/* </li> */}
 
-              {/* <li> */}
-                <a href="/#product">Product</a>
-              {/* </li> */}
+            {/* <li> */}
+            <a href="/#product">Product</a>
+            {/* </li> */}
 
-              {/* <li> */}
-                <a href="/#hiw">How it works</a>
-              {/* </li> */}
+            {/* <li> */}
+            <a href="/#hiw">How it works</a>
+            {/* </li> */}
 
-              {/* <li> */}
-                <a href="/#contact" class="btn">
-                  Contact
-                </a>
-              {/* </li> */}
+            {/* <li> */}
+            <a href="/#contact" class="btn">
+              Contact
+            </a>
+            {/* </li> */}
             {/* </ul> */}
             <button className="nav-btn nav-close-btn" onClick={showNavbar}>
               <FaTimes />
@@ -99,10 +102,17 @@ const Header = () => {
             </p>
           </div>
           <div className="btn_wrapperxd">
-            <button className="main_btn">Join waitlist</button>
+            <button className="main_btn">
+              {" "}
+              <a 
+                href="https://forms.gle/bRaidaCh3NEo2Zx3A/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Join Waitlist</a>
+            </button>
           </div>
           <div className="main_image">
-            <img src="https://i.ibb.co/tKqt7w4/Group-3766.png" alt="" />
+            <img src={landImage} alt="" />
           </div>
         </div>
       </header>

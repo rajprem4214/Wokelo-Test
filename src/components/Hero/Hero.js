@@ -44,7 +44,7 @@ const Hero = () => {
           ></path>
         </svg>
         <div className="curved_content">
-          <div  className="curved_left">
+          <div className="curved_left">
             <p className="cl_para">
               <span style={{ color: "#795EFF" }}>
                 Think of it as an AI-powered <br />
@@ -59,17 +59,17 @@ const Hero = () => {
             <span className="cl_list">For example:</span>
             <ul className="cl_list">
               <li>
-                Generate a comprehensive analysis on “drone 
+                Generate a comprehensive analysis on “drone
                 <br />
-                       software industry”{" "}
+                software industry”{" "}
               </li>
               <li>
-                Perform a competitor benchmarking on “early- <br/> stage SAAS competing
-                with monday.com”{" "}
+                Perform a competitor benchmarking on “early- <br /> stage SAAS
+                competing with monday.com”{" "}
               </li>
               <li>
-                Detailed analysis of “product launches in 5G <br/> Open RAN in US and
-                UK”{" "}
+                Detailed analysis of “product launches in 5G <br /> Open RAN in
+                US and UK”{" "}
               </li>
             </ul>
           </div>
@@ -78,7 +78,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="below_wave">
+      <div id="product" className="below_wave">
         <div className="bw_header">Wokelo’s Capabilities</div>
         <div className="boxes">
           <div className="box">

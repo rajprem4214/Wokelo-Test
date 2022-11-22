@@ -93,7 +93,7 @@ html{
   font-family: 'Raleway';
 font-style: normal;
 font-weight: 500;
-font-size: 2.1rem;
+font-size: 1.8rem;
 line-height: 3.2rem;
 /* or 133% */
 
@@ -261,7 +261,7 @@ font-size: 1.6rem;
 line-height: 3.2rem;
 /* or 160% */
 /* width: 63%; */
-width: 50%;
+width: 60%;
 color: #FFFFFF;
 }
 .hiw_content2{
@@ -271,7 +271,7 @@ font-weight: 500;
 font-size: 1.6rem;
 line-height: 3.2rem;
 /* or 160% */
-width: 50%;
+width: 60%;
 
 color: #FFFFFF;
 }
@@ -431,7 +431,30 @@ color: #989898;
   html{
     font-size: 45%;
   }
-
+  .contact .contact_left .contact_right{
+    margin-top: 5vh;
+  }
+  .access{
+      margin-top: 10vh;
+      margin-bottom: 8vh;
+  }
+  .header_wrapper{
+    margin-top: 10vh;
+  }
+  .process > img {
+    width: 95%;
+    margin-top: 0;
+  }
+  .process{
+    margin-top: 5vh;
+  }
+.process_footer {
+  
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  
+  
+}
   .process_wrapper {
   margin-top: 1rem;
  
@@ -448,6 +471,9 @@ color: #989898;
 }
 .pbox_material{
   margin-top:-5vh;
+  height: 22vh;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
 }
 .process_footer > img{
   width: 100%;
@@ -457,6 +483,8 @@ color: #989898;
 }
 .hiw{
   flex-direction: column;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 .hiw_left{
   width: 100%;
@@ -485,7 +513,9 @@ color: #989898;
   width: 80%;
 }
 .arrow_img > img{
-display: none;
+/* display: none; */
+width: 30%;
+    margin-left: 22rem;
 }
 .subs{
   display: flex;

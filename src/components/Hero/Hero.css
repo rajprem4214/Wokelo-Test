@@ -69,7 +69,7 @@
 }
 .box {
   height: auto;
-  width: 25rem;
+  width: 27rem;
   padding: 1rem;
   margin-left: 1em;
   position: relative;
@@ -89,7 +89,7 @@
   font-style: normal;
   font-weight: 700;
   margin-top: 2.5rem;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   line-height: 3.2rem;
   /* identical to box height, or 133% */
 
@@ -101,7 +101,7 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   line-height: 2.4rem;
   /* or 150% */
   /* width: auto; */
@@ -203,6 +203,9 @@
   .curved_right > img {
     margin-left: 8rem;
   }
+  .info_section{
+    margin-top: 0;
+  }
 }
 @media (max-width: 600px) {
   .curved_right {
@@ -233,6 +236,7 @@
   }
   .below_wave {
     padding-top: 6vh;
+    padding-bottom: 6vh;
   }
   .boxes {
     margin-top: 0;

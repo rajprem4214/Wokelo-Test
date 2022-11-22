@@ -14,6 +14,17 @@ nav a:hover{
   display: flex;
   justify-content: space-between;
 }
+.main_btn{
+  z-index: 50;
+}
+.main_btn > a{
+  text-decoration: none;
+  color: white;
+}
+.logo > span > a{
+  text-decoration: none;
+  color: white;
+}
 nav {
   display: flex;
   /* align-items: center; */
@@ -58,6 +69,7 @@ header {
 }
 .logo > span{
   margin-top: .3rem;
+  font-size: 2.8rem;
 }
 
 
@@ -85,7 +97,7 @@ header {
   /* display: inline-block; */
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   color: #d0d0d0;
 }
 .para_wrapper {
@@ -133,6 +145,7 @@ header {
   align-items: center;
 }
 @media only screen and (max-width: 1024px){
+  
   .nav-btn {
 		/* visibility: visible; */
 		display: flex;
@@ -156,6 +169,10 @@ header {
 		transition: 1s;
 		transform: translateY(-100vh);
 	}
+  nav a{
+    font-size: 2.5rem;
+    /* margin-top: 0; */
+  }
   .responsive_nav {
 		transform: none;
 	}
@@ -189,7 +206,7 @@ header{
   /* width: 200px; */
 }
 header{
-  height: fit-content;
+  height: 100vh;
 }
 
 }
