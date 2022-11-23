@@ -2,6 +2,7 @@ import React from "react";
 import "./Roadmap.css";
 import { ImLocation } from 'react-icons/im'
 import { FiMail } from 'react-icons/fi'
+import { FaLinkedinIn } from "react-icons/fa";
 import process from "../../assets/process.png";
 import bino from "../../assets/bino.png";
 import light from "../../assets/light.png";
@@ -169,7 +170,9 @@ const Roadmap = () => {
               </p>
               <p className="add_link">
                 {" "}
-                <FiMail /> &nbsp; support@wokelo.ai
+                <a href="mailto:support@wokelo.ai">
+                  <FiMail /> &nbsp; support@wokelo.ai
+                </a>
               </p>
             </div>
           </div>
@@ -177,17 +180,30 @@ const Roadmap = () => {
             <div className="follow_content">
               <p className="follow">Follow</p>
               <p className="sign_up">
-                Sign up to get the latest news on our product.
+                Subscribe up to get the latest news on our product.
               </p>
               <div className="subs">
-                <input
+                {/* <input
                   type="text"
                   name=""
                   id=""
                   placeholder="Enter your email here"
                 />
                 &nbsp;
-                <button>Subscribe</button>
+                <button>Subscribe</button> */}
+                <button>
+                  <a
+                    href="https://www.linkedin.com/company/wokelo-ai/about/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    <span>
+                      <FaLinkedinIn />
+                    </span>{" "}
+                    &nbsp; Linkedin
+                  </a>
+                </button>
               </div>
             </div>
           </div>

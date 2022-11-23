@@ -123,14 +123,14 @@ header {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 20rem;
-  height: 6rem;
+  width: 18rem;
+  height: 4rem;
   color: #ffffff;
   background: linear-gradient(
     180deg,
@@ -205,6 +205,7 @@ header{
   height: auto;
   /* width: 200px; */
 }
+
 header{
   height: fit-content;
 }

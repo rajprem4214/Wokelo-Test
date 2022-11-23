@@ -214,6 +214,9 @@ color: #FFFFFF;
 }
 .wait_btn{
   width: 20rem;
+  font-size: 2rem;
+  width: 20rem;
+  height: 6rem;
 }
 .hiw_left {
   width: 50%;
@@ -225,7 +228,23 @@ color: #FFFFFF;
   height: auto;
   /* margin-left: 15vw; */
 }
-
+.subs > button > a{
+  text-decoration: none;
+  color: black;
+}
+.add_link > a{
+  text-decoration: none;
+  color: white;
+}
+.subs > button > a > span{
+  color: #0077b5;
+  /* margin-top: 10px; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 1.6rem;
+}
 .hiw_right {
   /* display: inline-block; */
   width: 50%;
