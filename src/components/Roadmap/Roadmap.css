@@ -237,7 +237,7 @@ color: #FFFFFF;
   color: white;
 }
 .subs > button > a > span{
-  color: #0077b5;
+  color: white;
   /* margin-top: 10px; */
   /* display: flex; */
   /* flex-direction: row; */
@@ -402,7 +402,8 @@ line-height: 3.2rem;
 color: #FFFFFF;
 }
 .subs > button{
-  background: #FFCB62;
+  background: black;
+  border: 1px solid white;
 border-radius: 5px;
 font-family: 'Raleway';
 font-style: normal;
@@ -410,7 +411,7 @@ font-weight: 600;
 font-size: 1.5rem;
 line-height: 2.3rem;
 text-align: center;
-padding: .8rem;
+padding: 1rem;
 color: #000000;
 }
 .subs > input {
@@ -419,7 +420,7 @@ border: 1px solid #FFFFFF;
 border-radius: 5px;
 color: white;
 font-size: 1.5rem;
-padding: .8rem;
+padding: .6rem;
 width: 50%;
 }
 .policy{

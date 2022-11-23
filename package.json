@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "homepage": "http://testwokelo.gganalytics.in",
+  "homepage": "http://wokelo.ai",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

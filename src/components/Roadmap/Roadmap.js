@@ -200,8 +200,9 @@ const Roadmap = () => {
                     {" "}
                     <span>
                       <FaLinkedinIn />
-                    </span>{" "}
-                    &nbsp; Linkedin
+                    </span>
+                    {"  "}&nbsp;
+                    <span style={{ color: "white" }}>LinkedIn</span>
                   </a>
                 </button>
               </div>
