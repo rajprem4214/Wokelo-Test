@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../../assets/Wokelo - Final logo (1) 1.png'
+import logo from '../../assets/Group 289343.png'
 import landImage from '../../assets/Group 3766.png'
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -17,8 +17,16 @@ const Header = () => {
           <div class="logo">
             <img src={logo} alt="" />
             &nbsp;
-            <span>
-              <a href="/">WOKELO</a>
+            <span
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <a href="/">
+                Wokelo<span style={{ color: "#583BE8" }}>.ai</span>{" "}
+              </a>
             </span>
           </div>
 
@@ -104,11 +112,13 @@ const Header = () => {
           <div className="btn_wrapperxd">
             <button className="main_btn">
               {" "}
-              <a 
+              <a
                 href="https://forms.gle/bRaidaCh3NEo2Zx3A/"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Join Waitlist</a>
+              >
+                Join Waitlist
+              </a>
             </button>
           </div>
           <div className="main_image">

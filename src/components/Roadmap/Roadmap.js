@@ -29,6 +29,8 @@ const Roadmap = () => {
           </span>
         </p>
       </div>
+     
+
       <div className="process">
         {/* <span className="process_span">
           <span className="span_number">1</span>
@@ -129,7 +131,7 @@ const Roadmap = () => {
             <p className="hiw_content2">
               At its core it uses a combination of large language
               {/* <br /> */} models and generative AI tools like GPT-3 and our
-              {/* <br /> */} proprietary NLP models to perform quanlitative
+              {/* <br /> */} proprietary NLP models to perform qualitative
               {/* <br /> */} analysis at a fidelity and speed that was not
               {/* <br /> */} possible before.
             </p>

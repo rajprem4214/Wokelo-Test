@@ -81,6 +81,18 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
 }
+.road_header2{
+    font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 4.8rem;
+  /* or 100% */
+
+  text-align: center;
+
+  color:#583BE8 ;
+}
 .box:hover {
   transform: translate(0, -10px);
 }
@@ -176,6 +188,19 @@
   height: auto;
   /* margin-left: 8rem; */
 }
+.player{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #272727;
+  padding-bottom: 10vh;
+}
+
+.player > iframe {
+  width: 70vw;
+  height: 90vh;
+}
 .bw_header {
   display: flex;
   justify-content: center;
@@ -215,6 +240,10 @@
   .curved_content {
     flex-direction: column;
     position: relative;
+  }
+  .player > iframe{
+    height: auto;
+    width: 80vw;
   }
   .curved_left {
     /* position: relative; */

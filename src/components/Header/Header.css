@@ -61,16 +61,20 @@ header {
 }
 .logo {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   font-family: "Raleway";
   font-weight: 700;
   font-size: 3rem;
-  padding: 2.0rem;
+  padding: 1rem;
   letter-spacing: 5;
 }
 .logo > span{
-  margin-top: .3rem;
+  /* margin-top: .3rem; */
   font-size: 2.8rem;
+}
+.logo > img {
+  width: 15%;
+  height: auto;
 }
 
 

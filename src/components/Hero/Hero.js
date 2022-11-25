@@ -78,7 +78,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div id="product" className="below_wave">
+      <div className="below_wave">
         <div className="bw_header">Wokelo’s Capabilities</div>
         <div className="boxes">
           <div className="box">
@@ -122,6 +122,21 @@ const Hero = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div id="product" className="player">
+        <span className="road_header">Create custom reports</span>
+        <span className="road_header2" style={{ paddingBottom: "3vh" }}>
+          in minutes
+        </span>
+        <iframe
+        title="Product"
+          src="https://www.loom.com/embed/da9dac4adc92415b9ec4daa796ccf27b"
+          frameborder="0"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen
+          // style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        ></iframe>
       </div>
     </div>
   );
