@@ -17,7 +17,7 @@ const Roadmap = () => {
       <div className="header_wrapper">
         <div className="road_header">Current research process is broken!</div>
         <p className="road_para">
-          Qualitative business research is time-consuming and leave precious
+          Qualitative business research is time-consuming and leaves precious
           little time for actual
           <span
             style={{
